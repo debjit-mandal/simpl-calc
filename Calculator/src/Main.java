@@ -106,8 +106,10 @@ public class Main {
                     break;
                 case 10:
                     System.out.print("Enter the number: ");
-                    num1 = scanner.nextDouble();
-                    result = Math.log(num1);
+                    double a = scanner.nextDouble();
+                    System.out.print("Enter the base: ");
+                    double b = scanner.nextDouble();
+                    result = ((Math.log(a))/(Math.log(b)));
                     System.out.println("Result: " + result);
                     break;
                 case 11:
