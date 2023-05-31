@@ -9,4 +9,4 @@ To run this code locally:
 
 `javac main.java`
 
-`java main'
+`java main`
